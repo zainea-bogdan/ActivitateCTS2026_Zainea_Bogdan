@@ -33,7 +33,7 @@ Cuvinte cheie: **simplificare**, **modul unic**, **ascunderea complexității**,
 Client
   └──> FacadeClass
             ├──> ClassA
-            ├──> ClassB
+            ├──> ClassBf
             └──> ClassC
 ```
 
