@@ -58,7 +58,7 @@ Pentru internarea unui pacient trebuie verificate **trei lucruri separate**:
 - confirmarea medicului că pacientul are trimitere (`Medic`)
 - disponibilitatea unui pat liber (`Salon`)
 
-Fără Facade, clientul (`Main`) trebuie să orchestreze manual toate verificările:
+Fără Facade, clientul (`s9.main.Main`) trebuie să orchestreze manual toate verificările:
 
 ```java
 // ❌ Fără Facade — clientul gestionează totul manual
@@ -173,4 +173,4 @@ receptie.interneazaPacient(new Pacient("Dan", 7));
 
 ## Concluzie
 
-Facade este util ori de câte ori mai multe clase trebuie orchestrate împreună pentru o operație, iar clientul **nu ar trebui să fie responsabil** de această orchestrare. Dacă simți că `Main` face prea multe verificări în serie pentru a realiza o singură acțiune logică — e momentul pentru un Facade.
+Facade este util ori de câte ori mai multe clase trebuie orchestrate împreună pentru o operație, iar clientul **nu ar trebui să fie responsabil** de această orchestrare. Dacă simți că `s9.main.Main` face prea multe verificări în serie pentru a realiza o singură acțiune logică — e momentul pentru un Facade.
