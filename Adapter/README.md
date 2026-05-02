@@ -146,7 +146,7 @@ AdaptorMedicament
 Farmacia are clasa `Medicament` cu metoda `cumparaMedicament()` (fără verificare rețetă).
 Spitalul are clasa `Medicament` cu metoda `achizitioneazaMedicament()` (cu verificare rețetă).
 
-Clientul (`Main`) cunoaște doar interfața farmaciei. Trebuie să poată folosi și medicamentele spitalului **fără să modifice nicio clasă existentă**.
+Clientul (`s10_recuperare.main.Main`) cunoaște doar interfața farmaciei. Trebuie să poată folosi și medicamentele spitalului **fără să modifice nicio clasă existentă**.
 
 ### Clasele existente (incompatibile)
 
